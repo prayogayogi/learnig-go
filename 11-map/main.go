@@ -15,5 +15,16 @@ func main() {
 		"php": "is intermediate", 
 		"go": "super fast",
 	}
-	fmt.Println(myMap)
+	for _, value := range myMap {
+		fmt.Println(value)
+	}
+
+	// Slice of map
+	students := []map[string]string{
+		{"name": "Piter", "age": "24"},
+		{"name": "Yogi", "age": "25"},
+	}
+	for _, val := range students{
+		fmt.Println(val["name"])
+	}
 }

@@ -13,6 +13,6 @@ func main(){
 	gamingConsole = append(gamingConsole, "Point Blank")
 
 	for _, console := range gamingConsole{
-		fmt.Println("Game: ", console)
+		fmt.Println("Game:", console)
 	}
 }
